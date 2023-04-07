@@ -96,7 +96,7 @@ select{
 
 .toDoList1{
 
-    min-width: 30%;
+    /*min-width: 30%;*/
     list-style: none;
 
 }
@@ -107,9 +107,8 @@ select{
     color: black;
     font-size: 1.5rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    
     transition: .5s all ease;
 
 }
@@ -136,7 +135,7 @@ select{
 .alert-message{
 
     position: absolute;
-    bottom: 10½;
+    bottom: 10%;
     right: 0;
 
 }
@@ -161,10 +160,11 @@ select{
 }
 
 .fall{
-
-    transform: translateY(8rem);
-    opacity: 0;
+    opacity: 0.5;
+    filter: grayscale(100%);
+    /*transform: translateY(8rem);*/
+    display: none;
 }
-.completed{
+.complicated{
     opacity: 0.5;
 }
